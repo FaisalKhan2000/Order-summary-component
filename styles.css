@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  font-weight: 500;
+  line-height: 1.6;
+  background-image: url(./images/pattern-background-desktop.svg);
+  z-index: 2;
+  background-repeat: repeat-x;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.border-1 {
+    width: 420px;
+    height: 650px;
+    background: #ffff;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.primary-image {
+    width: 420px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-1 > h1 {
+    align-self: center;
+    font-size: 1.6em;
+    color: hsl(223, 47%, 23%);
+    margin-top: 25px;
+}
+
+.div-1 > p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 0.98em;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.div-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 350px;
+    height: 100px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background: hsl(225, 100%, 98%);
+}
+
+.div-2 > svg {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.div-3 > h4 {
+    color: hsl(223, 47%, 23%);
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    margin-left: 100px;
+    font-size: 0.9em;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.btn-1 {
+    background: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    padding: 10px 40px;
+    width: 350px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -7px hsl(245, 61%, 52%);
+}
+
+.btn-2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
